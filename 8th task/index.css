@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+#date{
+    border:5px solid gold ;
+    background-color:goldenrod;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    width: 500px;
+}
+p{
+    font-size: 25px;
+}

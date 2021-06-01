@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+#game{
+    border:5px solid darkgreen ;
+    background-color: darkolivegreen;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    width: 500px;
+}
+p{
+    font-size: 20px;
+}
+
+

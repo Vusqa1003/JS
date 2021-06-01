@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+div{
+    height:250px; 
+    width:500px;
+    margin-top:100px;
+   margin:auto;
+   }
+
+   button{height:30px;
+       width:90px;
+       background-color:burlywood;
+       margin:auto;
+       position: absolute;
+       top: 60%;
+       left:45%;
+       -ms-transform: translateY(-50%);
+       transform: translateY(-50%);
+       border-radius:8px;
+     }

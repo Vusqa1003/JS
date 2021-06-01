@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+#container{
+    border:5px solid gold ;
+    background-color:goldenrod;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    width: 550px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+}    
+#input{
+    height: 20px;
+    width: 200px;
+    border: 2px solid black; 
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+}
+
+#output{
+    height: 20px;
+    width: 200px;
+    border: 2px solid black;  
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;   
+}
+#meter{
+    background-color:burlywood;
+    height:30px;
+    width:120px;
+    margin:auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    
+}
+
+#feet{
+    background-color:burlywood;
+    height:30px;
+    width:120px;
+    margin:auto;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    
+   
+}
